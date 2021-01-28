@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] public bool isGameOver = false;
-    
-    private float speed = 5.0f;
+    [SerializeField] private float speed = 5.0f;
+
     private Rigidbody playerRigidBody = null;
 
     // Start is called before the first frame update
